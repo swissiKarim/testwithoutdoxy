@@ -29,10 +29,6 @@ clean:
 	find ./ -name *.gcda -exec rm -v {} \;
 	-rm $(APPNAME)
 	-rm $(TESTMAIN)
-	-rm *_result.xml
-	-rm doxygen_*
-	-rm -rf html
-	-rm -rf latex
 
 ###########################################################################
 # Body
